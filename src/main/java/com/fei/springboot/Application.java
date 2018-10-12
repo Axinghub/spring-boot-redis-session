@@ -9,8 +9,8 @@ import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomi
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 
-@EnableAutoConfiguration
-@ComponentScan(basePackages={"com.fei.springboot"})
+//@EnableAutoConfiguration
+//@ComponentScan(basePackages={"com.fei.springboot"})
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer implements EmbeddedServletContainerCustomizer{
 
